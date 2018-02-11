@@ -1,0 +1,56 @@
+body{
+    background-image: url(../images/playstation-pattern.png);
+    font-family: "Rajdhani";
+    font-size: 14px;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+.navbar {
+    border-radius: 0px;
+    padding: 20px;
+}
+
+
+
+.divider {
+    height: 2px;
+    background-color: #cccccc;
+    margin-bottom: 26px;   
+}
+
+#content {
+background: #ffffff;
+padding: 10px;
+border-color: #cccccc;
+border-style: solid;
+border-width: 1px;
+margin-top: 10px;
+}
+
+#margin {
+    margin-right: 30px;
+}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 80px;
+background-color:#666666;
+color: white;
+text-align: center;
+
+}
+
+#picture {
+    margin-top: 40px;
+}
+
+.footer-text {
+    margin-top: 30px;
+    color: #cccccc;
+}
+

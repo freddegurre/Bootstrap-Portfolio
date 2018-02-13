@@ -1,9 +1,11 @@
+
 body{
     background-image: url(../images/playstation-pattern.png);
     font-family: "Rajdhani";
     font-size: 14px;
 }
 
+/*main container for al of web page*/
 .container{
     margin-bottom: 100px;
 }
@@ -13,8 +15,7 @@ body{
     padding: 20px;
 }
 
-
-
+/* the devider under each h1 in the content and contact section */
 .divider {
     height: 2px;
     background-color: #cccccc;
@@ -30,9 +31,7 @@ border-width: 1px;
 margin-top: 10px;
 }
 
-#margin {
-    margin-right: 30px;
-}
+/* footer */
 .footer {
 position: fixed;
 left: 0;
@@ -42,11 +41,15 @@ height: 80px;
 background-color:#666666;
 color: white;
 text-align: center;
+z-index: 999;
 
 }
 
+/* picture for portfolio*/
 #picture {
     margin-top: 40px;
+    z-index: 1;
+    position: relative;
 }
 
 .footer-text {
@@ -54,8 +57,63 @@ text-align: center;
     color: #cccccc;
 }
 
-
+/*hover effect on connect images*/
 .connect-img:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+/* Banner that is ontop of projects in portfolio*/
+.banner {
+    width: 92.5%;
+    height: 25%;
+    background-color: #cccccc;
+    color: #666666;
+    z-index: 2;
+    position: absolute;
+    top: 166px;
+    text-align: center;
+    padding: 27px;
+}
+
+
+/* media queries for the banners infront of project col*/
+@media screen and (max-width: 1200px){
+    .banner {
+        width: 90.5%;
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+   .banner{
+    width: 96%;
+    padding: 51px;
+   }
+}
+
+@media screen and (max-width: 650px) {
+    .banner{
+     width: 95%;
+     padding: 51px;
+     top: 282px;
+    }
+ }
+
+ @media screen and (max-width: 500px) {
+    .banner{
+    width: 94%;
+    padding: 40px;
+    top: 243px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+.banner{
+    width: 92%;
+    padding: 18px;
+    top: 184px;
+}
 }
